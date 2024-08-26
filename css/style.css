@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+ #Hero-sec {
+    background: url(../images/bg-img-002-free-img.png),
+                linear-gradient(to right, 
+                    #B5838C 0%, 
+                    #B5838C 50%, 
+                    #FFCDB2 50%, 
+                    #FFCDB2 100%);
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+header{
+    background:   linear-gradient(to right, 
+    #B5838C 0%, 
+    #B5838C 50%, 
+    #FFCDB2 50%, 
+    #FFCDB2 100%);;
+}
+.navbar{
+    margin-top: -15px !important;
+}
+.navbar-nav a{
+    font-family: Lato, sans-serif;
+    color: rgb(97, 92, 104)    ;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 70px;
+}
+#Hero-sec{
+    height: 130vh;
+    padding: 40px 20px 20px 60px;
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+
+.small-line{
+    width: 8%;
+    height: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
+.hero-caption h4{
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: white;
+}
+.hero-caption h1{
+    font-family: "Noto Serif", serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 128px;
+    color: white;
+}
+.hero-caption p{
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    color: white;
+    margin: 20px 0;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.left-map h5{
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+address{
+    font-family: Lato, sans-serif    ;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75)    ;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+#About,#Reviews,#location ,#menue, #big-card{
+    background-color: rgb(110, 104, 118);
+    padding-top: 110px;
+}
+
+#About h2, #Reviews h2 , #location h2 ,#menue h2 ,#big-card h2{
+font-family: "Noto Serif", serif;
+font-size: 48px;
+line-height: 50px;
+font-weight: 700;
+}
+#About p, #Reviews p , #location p , #menue p{
+font-family: Lato, sans-serif;
+font-size: 16px;
+color: 
+rgba(255, 255, 255, 0.75);
+line-height: 20px;
+font-weight: 400;
+}
+#About h3 {
+font-family: "Noto Serif", serif;
+font-size: 35px;
+color: 
+rgb(255, 255, 255);
+line-height: 40px;
+font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-column {
+    width: 50%;
+    padding: 20px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fff;
+}
+
+.menu-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    color: #fff;
+    margin: 0;
+}
+
+.item-details p {
+    color: #d3d3d3;
+    margin: 5px 0 0;
+}
+
+.price {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#About h6 , #big-card h6{
+font-family: "Noto Serif", serif;
+font-size: 16px;
+color: 
+rgb(255, 255, 255);
+line-height: 20px;
+font-weight: 700;
+margin: 30px 0 30px 0;
+}
+
+.imgs{
+    width: 90%;
+    box-shadow: 0px 4px 10px 50px rgba(110, 104, 118, 0.7) ;
+}
+
+footer{
+    background-color: rgb(110, 104, 118);
+    padding-top: 60px;
+}
+.hori-line{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+.bg-quoute{
+background: url(../images/quete\ 1.png);
+}
+
+.card .stars{
+    color: 
+    #FFCDB2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin-top: 30px;
+}
+
+.data img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.drinks{
+    background-color: #615C68;
+}
+
+.data h6{
+    margin-left: 20px;
+    font-family: Lato, sans-serif    ;
+    font-size: 14px;
+    line-height: 18px;
+    color: 
+    rgba(255, 255, 255, 0.75) !important;
+}
+
+.card p , .map p{
+    font-family:Lato, sans-serif    ;
+    font-size: 20px;
+    line-height: 23px;
+    color: 
+    rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+.left-map{
+    background-color: #B5838C;
+    height: fit-content;
+    margin-right: 0;
+}
+
+.location-icon{
+    font-size: 40px;
+    color: 
+    rgb(255, 205, 178);
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.menu-container{
+    display: flex;
+    background-color: #B5838C;
+    margin: 50px auto;
+    border-radius: 30px;
+}
+
+.big-card{
+background-color: #E7B5A6;
+background-image: url(../images/bg-logo.png) ;
+background-repeat: no-repeat;
+border-radius: 40px;
+}
+
+.about-left{
+    background-color: #5A5560;
+    padding-bottom: 60px;
+}
+
+.card {
+    background: linear-gradient(135deg, #dd968e, #f1bfb2);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    padding: 15px;
+    border-radius:  30px;;
+}
+p {
+    font-size: 1.2rem;
+    color: #f0e4e4;
+    margin: 0 0 30px;
+}
+
+.app-buttons img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-icons i{
+    background-color: #AE808A;
+    width: 40px;
+    padding: 10px;
+}
+
+p i{
+    font-size: 1.5rem;
+    color: #FFCDB2;
+}
